@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import Home from './Home';
+import 'mapbox-gl/dist/mapbox-gl.css';
+import Map from './Map';
 
 // Create a react-query client
 const queryClient = new QueryClient();
@@ -15,7 +16,7 @@ const App = () => {
             alt="MarvelBus"
           />
         </header>
-        <Home />
+        <Map />
         <ReactQueryDevtools />
       </div>
     </QueryClientProvider>
