@@ -1,3 +1,12 @@
+Deploys automatically on commits to `main` branch at https://tonymamo-mb.netlify.app/
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1d5e0f6-cd0b-45e2-88b1-46d573ef75d2/deploy-status)](https://app.netlify.com/sites/tonymamo-mb/deploys)
+
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
